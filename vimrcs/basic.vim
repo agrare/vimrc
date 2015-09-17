@@ -81,6 +81,9 @@ source $VIMRUNTIME/menu.vim
 " Turn on the WiLd menu
 set wildmenu
 
+" Turn on line numbers
+set number
+
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
 if has("win16") || has("win32")
