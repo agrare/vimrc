@@ -84,6 +84,9 @@ set wildmenu
 " Turn on line numbers
 set number
 
+" Search for a ctags file
+set tags=./tags,tags;
+
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
 if has("win16") || has("win32")
