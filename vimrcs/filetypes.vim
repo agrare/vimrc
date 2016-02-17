@@ -65,3 +65,10 @@ au FileType gitcommit call setpos('.', [0, 1, 1, 0])
 if exists('$TMUX') 
     set term=screen-256color 
 endif
+
+"""""""""""""""""""""""""""""
+" => Ruby section
+""""""""""""""""""""""""""""
+au FileType ruby set expandtab
+au FileType ruby set shiftwidth=2
+au FileType ruby set tabstop=2
